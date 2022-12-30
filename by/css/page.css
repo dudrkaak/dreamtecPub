@@ -119,125 +119,6 @@
     /* ? referenceRoom fin */
 }
 
-/* @media screen and (max-width: 767px){
-
-    .main_Slider{
-        margin: 0 auto; width: 100%; overflow: hidden; border-radius: 13px; padding-top: 60px;
-    }
-    .main_Slider .slider li{
-        height: 250px; 
-    }
-    .main_Slider .slider li img{
-        border-radius: 13px; width: 760px; height: 250px;
-    }
-    .main_Slider dl{
-        position: absolute; left: 23%; top: 17%; text-align: center;
-        
-    }
-    .main_Slider dl dt{
-        font-size: 4vw; font-weight: 800; color: #fff;
-    }
-    .main_Slider dl dd{
-        font-size: 2vw; font-weight: 500; line-height: 32px; margin-top: 20px; color: #fff;
-    }
-
-
-    .product{
-        max-width: 768px; margin: 20px auto 0 ; text-align: center;
-    }
-    .product h2{
-        color: #333333; font-size: 4vw; font-weight: 800; margin-bottom: 20px;
-    }
-    .product p{
-        color: #444444; font-size: 2.5vw; font-weight: 500; line-height: 2.5vw; margin-bottom: 50px;
-    }
-    .product ul:after{
-        content: ''; display: block; clear: both;
-    }
-    .product ul li{
-        width: 48%; height: 175px; list-style: none; float: left; margin: 0 1% 2%; overflow: hidden;
-        position: relative; cursor: pointer;
-    }
-    .product ul li img{
-        object-fit: cover; width: 100%; height: 100%; transition: scale 0.5s ease-in-out;
-    }
-    .product ul li span{
-        font-size: 11px; font-weight: 600; line-height: 30px; color: #ffffff; text-align: center; z-index: 4; padding: 0;
-        background-color: rgba(50,49,144,55%); transition: 0.5s; position: absolute; left: 0; bottom: 0; width: 100%; border-radius: 0  0 5px 5px ;
-    }
-    .product ul li:hover img{
-        scale: 1.3; 
-    }
-    .product ul li:hover span{
-        background-color: rgba(255,204,0,80%);
-    }
-
-
-    .contact{
-        background: url('../images/main-section-2.jpg') no-repeat center center rgba(0,0,0,0.2);
-        height: 50vw; margin-top: 50px; background-size: cover; background-blend-mode: overlay;
-    }
-    .contact section{
-        width: 100%; margin: 0 auto; padding: 0 20px; text-align: center;
-    }
-    .contact section h2{
-        color: #ffffff; font-size: 4vw; font-weight: 800; padding-top: 40px;
-        line-height: 1.4;
-    }
-    .contact section p{
-        margin-top: 5px; font-size: 3vw; font-weight: 500; line-height: 28px; color: #eeeeee;
-    }
-    .contact section span{
-        display: inline-block; margin-top: 30px;
-    }
-    .contact section span a{
-        border: 1px solid #ffffff; border-radius: 50px; font-size: 3.5vw; font-weight: 800; color: #323190;
-        padding: 3vw; box-sizing: border-box; display: inline-block; background-color: #ffffff;
-    }
-
-
-
-
-    .referenceRoom{
-        width: 100%; margin: 0 auto; text-align: center; padding: 0 10px;
-    }
-    .referenceRoom h2{
-        margin-top: 10vw; font-size: 4vw; font-weight: 800;
-    }
-    .referenceRoom p{
-        font-size: 2vw; font-weight: 500; line-height: 21px; margin-top: 20px;
-    }
-    .referenceRoom div{
-        margin-top: 35px; position: relative;
-    }
-    .referenceRoom div ul{
-        border-top: 1px solid #222222; list-style: none;
-    }
-    .referenceRoom div ul li{
-        border-bottom: 1px solid #dddddd; padding: 20px 160px 20px 0; text-align: left; line-height: 50px;
-    }
-    .referenceRoom div ul li a{
-        color: #444444; font-size: 18px; font-weight: 600; 
-    }
-    .referenceRoom div ul li span{
-        position: absolute; color: #999999; font-size: 16px; font-weight: 500; width: 160px; right: 0; top: 50; z-index: 1;
-        text-align: center;
-    }
-    .referenceRoom div ul li:hover a,
-    .referenceRoom div ul li:hover span{
-        cursor: pointer;
-    }
-    .referenceRoom div > span{
-        font-weight: 300; color: #aaa; position: absolute; top: 76%; width: 40px; height: 40px; line-height: 38px;
-        border: 1px solid #dddddd; background-color: #ffffff; text-align: center; z-index: 20; transform: translate(-50%);
-        border-radius: 50%; font-size: 32px; cursor: pointer;
-    }
-    .referenceRoom div > span:hover{
-        background-color: #fc0; color: #fff; border-color: #fc0;
-    }
-
-} */
-
 @media screen and (min-width: 768px) and (max-width: 1279px){
 
     .main_Slider{
@@ -362,13 +243,11 @@
   }
 
 @media screen and (min-width: 1280px){
-
-
     .main_Slider{
         margin: 107px auto 20px; width: 1420px; overflow: hidden; border-radius: 13px;
     }
     .main_Slider .slider li{
-        height: 500px; 
+        height: 500px; width: !important;
     }
     .main_Slider .slider li img{
         border-radius: 13px; width: 1420px; height: 500px;

@@ -22,7 +22,8 @@ $(document).ready(function(){
         swipeThreshold: 50,
         minSlides : 1,
         maxSlides : 1,
-        slideWidth : 1420 
+        slideWidth : 1420,
+        slideMargin : 10
         
     });
 
