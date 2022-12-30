@@ -29,7 +29,7 @@ $(document).ready(function(){
     toggleCheck();
 });
 function toggleCheck(){
-    var $checkTarget = $(".material-icons");
+    var $checkTarget = $("#menuBox");
     var $checkBox = $("#mui");
     var checkStatus = false;
 
